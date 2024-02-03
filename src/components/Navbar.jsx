@@ -11,7 +11,7 @@ export default function Navbar() {
     const navArray = ['Home', 'About', 'Services', 'Contact'];
 
     return (
-        <div className="fixed w-full h-[80px] text-xl flex justify-between items-center px-6 bg-gray-100 text-[#313131]">
+        <div className="fixed w-full h-[80px] text-xl  flex justify-between items-center px-6 bg-gray-100 text-[#313131]">
 
             <Link to="Home" spy={true} smooth={true} duration={1000}>
                 <img src={logo} alt="Logo" className="h-[40px] cursor-pointer" />
@@ -21,7 +21,7 @@ export default function Navbar() {
             <div className="font-normal hidden md:flex shadow-[#040c16] ml-20 ">
                 <ul className="hidden md:flex">
                     {navArray.map((navItem, index) => (
-                        <li className="mx-6" key={index}>
+                        <li className="mx-6 font-bold" key={index}>
                             <Link
                                 to={navItem}
                                 spy={true}
@@ -38,7 +38,7 @@ export default function Navbar() {
             <button className="bg-[#e94452] text-[#fdfbfb] border-[#e94452] rounded-full lg:py-2.5 lg:px-3.5 py-2 px-3 ">
                 <div className="flex justify-center align-middle">
                     <FaPhoneAlt className="mt-[5px]" />
-                    <a className="mx-2" href="tel:+919599018646">+91 1234567890</a>
+                    <a className="mx-2 " href="tel:+919599018646">+91 1234567890</a>
                 </div>
             </button>
             {/* Hamburger */}
