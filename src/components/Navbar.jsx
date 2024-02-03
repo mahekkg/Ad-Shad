@@ -51,7 +51,7 @@ export default function Navbar() {
                 className={
                     !nav
                         ? "hidden"
-                        : "absolute top-0 left-0 w-full h-screen bg-[rgba(248, 245, 245, 0.8)] flex flex-col justify-center items-center"
+                        : "absolute top-0 left-0 w-full h-screen  flex flex-col justify-center items-center"
                 }
 
             >
