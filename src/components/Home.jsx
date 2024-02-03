@@ -1,0 +1,27 @@
+import hero from '../assets/hero.png';
+
+const Home = () => {
+    return (
+        <>
+            <div className= " bg-gray-100 flex flex-col justify-center items-center  px-6 pt-8 lg:pt-6 pb-16  md:px-12 lg:text-left">
+                <div className="w-full mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
+                    <div className="flex flex-col md:flex-row items-center lg:ml-20 gap-12 lg:mt-36">
+                        <div className="mt-14 lg:mt-0 text-center md:text-left">
+                            <h1 className="mt-2 mb-2 text-4xl font-bold tracking-tight md:text-6xl xl:text-[59px] ">
+                            We Build Website/App/CRM That Builds Your <br /><span className="text-[#e94452]">Business</span>
+                            </h1>
+                            <p className='text-lg mb-2'>We Are An Expert in Software Development & Digital Marketing And Use The Best Technologies And Platforms To Deliver High-Quality Products.</p>
+                            <button className="bg-[#e94452] text-white py-2 px-4 rounded-md">Schedule Meet</button>
+                        </div>
+                        <div>
+                            <img src={hero}
+                              className='w-[100rem]' alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    );
+}
+
+export default Home;
