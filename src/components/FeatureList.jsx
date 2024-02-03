@@ -6,7 +6,7 @@ const FeatureList = () => {
     return (
         <div className="">
             
-            <div className="text-4xl font-bold my-0 mx-auto text-center w-[400px] text-[#e94452]  ">
+            <div className="text-4xl font-bold my-0 mx-auto text-center w-[350px] text-[#e94452]  ">
                 <TypeAnimation
                     sequence={[
                         " Digital Marketing",
