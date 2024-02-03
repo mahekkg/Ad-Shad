@@ -48,10 +48,10 @@ export default function Navbar() {
 
             {/* Mobile */}
             <div
-                className={
+                 className={
                     !nav
                         ? "hidden"
-                        : "absolute top-0 left-0 w-full h-screen  flex flex-col justify-center items-center"
+                        : "absolute top-0 left-0 w-full h-screen bg-[#f8f5f5] flex flex-col justify-center items-center"
                 }
 
             >
