@@ -41,3 +41,5 @@ export const servicesData = [
     image: video,
   },
 ];
+
+export const navArray = ['Home', 'About', 'Services', 'Contact'];

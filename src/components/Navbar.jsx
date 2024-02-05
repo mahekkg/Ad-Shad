@@ -4,11 +4,12 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { Link } from "react-scroll";
 import logo from '../assets/logo.png'
 import '../styles/navbar.css'
+import { navArray } from "../store/services-store";
 
 export default function Navbar() {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
-    const navArray = ['Home', 'About', 'Services', 'Contact'];
+    
 
     return (
         <div className="fixed w-full h-[80px] text-xl  flex justify-between items-center px-6 bg-gray-100 text-[#313131]">

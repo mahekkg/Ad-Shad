@@ -3,7 +3,7 @@ import FeatureList from "./FeatureList";
 
 const About = () => {
   return (
-    <div className=" text-center my-16">
+    <div id='About' className=" text-center my-16">
       <div className="max-w-4xl mx-auto">
         <p className="text-[#e94452] uppercase tracking-[0.8rem] text-lg font-semibold">About Us</p>
         <div className="flex flex-col lg:flex-row gap-10 lg:m-8  p-6 lg:p-1 ">

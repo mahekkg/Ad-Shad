@@ -3,7 +3,7 @@ import { servicesData } from '../store/services-store';
 
 const Services = () => {
   return (
-    <><div className="bg-gray-100 py-8 lg:py-16 w-full">
+    <><div id='Services' className="bg-gray-100 py-8 lg:py-16 w-full">
       <div className="container mx-auto">
         <p className="text-[#e94452] uppercase tracking-[0.8rem] text-lg font-semibold mb-4 text-center">
           Our Services
